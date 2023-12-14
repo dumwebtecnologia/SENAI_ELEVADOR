@@ -1,14 +1,27 @@
-# Teste Elevador
-import ...
+# Teste para a classe Elevador
 
-# classe elevador
-e1 = Elevador(andar Atual0, portaAberta True, random.random() * 1000)
+from elevador import elevador
 
-# elevador parado
-print('\n\t\t\t -- Elevador Parado')
+import random
+# Criação e instância do objeto da classe elevador
+e1 = elevador(0, True, random.random() * 1000)
+
+# Imprimindo o status do elevador
+print('\n\t\t\t -- Elevador no Andar Térreo -- ')
 print(e1)
 
-# Subir
-  def subir(self, andarDesejado):
-      if self.fecharPorta():
-      while self.andarAtual < andarDesejado
+
+# Subir...
+e1.subir(5)
+
+# Imprimindo o status do elevador no 5º andar
+print('\n\t\t\t -- Elevador no 5º andar -- ')
+print(e1)
+
+# Descer...
+e1.descer(0)
+
+# Imprimindo o status do elevador no Térreo
+print('\n\t\t\t -- Elevador no Térreo -- ')
+print(e1)
+
